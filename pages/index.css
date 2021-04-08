@@ -29,12 +29,12 @@
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__website/place__website.css);
-@import url(../blocks/website-field/website-field.css);
-@import url(../blocks/website-field/__url-heading/website-field__url-heading.css);
-@import url(../blocks/website-field/__link/website-field__link.css);
+@import url(../blocks/website/website-field.css);
+@import url(../blocks/website/__url-heading/website__url-heading.css);
+@import url(../blocks/website/__link/website__link.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
-@import url(../blocks/paragraph-field/paragraph-field.css);
-@import url(../blocks/paragraph-field/__text/paragraph-field__text.css);
+@import url(../blocks/paragraph/paragraph.css);
+@import url(../blocks/paragraph/__text/paragraph__text.css);
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__background/cover__background.css);

@@ -1,4 +1,4 @@
-.website-field__link {
+.website__link {
   width: 288px;
   margin: 12px 0 0;
   font-size: 18px;
@@ -10,18 +10,18 @@
   transition: opacity 0.5s ease-in-out;
 }
 
-.website-field__link:hover {
+.website__link:hover {
   opacity: 0.8;
 }
 
 @media (min-width: 768px) {
-  .website-field__link {
+  .website__link {
     width: 352px;
   }
 }
 
 @media (min-width: 1024px) {
-  .website-field__link {
+  .website__link {
     width: 484px;
   }
 }
