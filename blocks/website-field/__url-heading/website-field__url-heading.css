@@ -1,4 +1,4 @@
-.website__url-heading {
+.website-field__url-heading {
   width: 288px;
   font-size: 12px;
   line-height: 12px;
@@ -7,13 +7,13 @@
 }
 
 @media (min-width: 768px) {
-  .website__url-heading {
+  .website-field__url-heading {
     width: 352px;
   }
 }
 
 @media (min-width: 1024px) {
-  .website__url-heading {
+  .website-field__url-heading {
     width: 484px;
   }
 }
