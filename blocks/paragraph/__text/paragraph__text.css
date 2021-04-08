@@ -1,0 +1,43 @@
+.paragraph__text {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.paragraph__text:last-of-type {
+  margin: 25px auto 0;
+}
+
+.paragraph__text:first-of-type {
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .paragraph__text:last-of-type {
+    margin: 25px 0 0;
+  }
+
+  .paragraph__text:first-of-type {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .paragraph__text:last-of-type {
+    margin: 26px 0 0;
+  }
+
+  .paragraph__text {
+    font-size: 18px;
+    line-height: 29px;
+  }
+
+  .paragraph__text:first-of-type {
+    margin: 0;
+    padding: 0;
+  }
+}

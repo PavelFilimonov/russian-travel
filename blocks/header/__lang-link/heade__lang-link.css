@@ -1,0 +1,23 @@
+.header__lang-link {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  font-style: normal;
+  color: inherit;
+  width: 22px;
+  padding: 0 18px 0 0;
+  text-underline-position: under;
+}
+
+.header__lang-link:last-of-type {
+  padding: 0;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .lead {
+    min-width: 30px;
+    line-height: 24px;
+    width: 28px;
+  }
+}

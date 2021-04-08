@@ -1,0 +1,18 @@
+.cover {
+  display: flex;
+  position: relative;
+  margin: 66px auto 0;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .cover {
+    margin: 90px auto 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cover {
+    margin: 92px auto 0;
+  }
+}
