@@ -1,0 +1,10 @@
+.footer__navigation {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .footer__navigation {
+    flex-direction: row;
+  }
+}
